@@ -1,4 +1,1 @@
-
-
-for i in range (5):
-    print('hello')
+print("This is another string!")

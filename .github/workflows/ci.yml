@@ -18,3 +18,9 @@ jobs:
     - name: Build the Program
       run: make
 
+- name: Upload Build Artifact
+  uses: actions/upload-artifact@v3
+  with:
+    name: hello-executable
+    path: ./hello
+
